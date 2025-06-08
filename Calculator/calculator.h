@@ -78,3 +78,16 @@ protected:
 
 // Ends the #ifndef guard form the top. Prevents multiple inclusions of this file.
 #endif // CALCULATOR_H
+
+
+
+
+/* Importance of this code
+ * Class abstraction: Groups related functionalities together for reusability and encapsulation
+ * Header guards: Prevents multiple definition errors.
+ * Virtual destructor: Ensures proper cleanup in ploymorphic use cases. 
+ * Public interface: Clearly defines what the user of the class can do (add, subtract, etc.)
+ * Polymorphism support: 'virtual' functions allow derived classes to modify behaviors.
+ * Encapsulation: Keeps 'reuslt' and 'mem' safe from external modification
+ * Extensibility: Can easily be extended to include scientific functions (e.g., sin, cos, etc.).
+ */
