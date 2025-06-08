@@ -56,3 +56,11 @@ public:
 
 // Ends the considtional compiliation block that started with #ifndef SCIENTIFIC_H
 #endif 
+
+
+/* Importance of code and the summary
+ * 
+ * class Scientific: public Calculator =  Inherits functionality - Reuses base operations, adds advanced ones.
+ * virtual void welcome() : Override welcome message - Shows users more options than basic calculator.
+ * virtual void parseOperations() : Custom command interpreter - Allows string inputs like 'sin' to work
+ */ 
